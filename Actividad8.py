@@ -1,0 +1,5 @@
+n = input("Pon un número entero:")
+m = input("pon otro número entero")
+Cociente = str(int(n) // int(m))
+Resto = str(int(n) % int(m))
+print("n dividido entre m  da", Cociente, "y el resto es", Resto)
